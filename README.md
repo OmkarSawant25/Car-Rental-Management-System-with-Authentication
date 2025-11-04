@@ -1,8 +1,3 @@
-Perfect ✅ — here’s your **Car Rental Management System (with Authentication)** `README.md` written in **the same structured, professional format** and style as your Image Steganography README.
-
----
-
-```markdown
 # 🚗 Car Rental Management System (with Authentication)
 
 ## 📘 Overview
@@ -27,15 +22,12 @@ The system uses structured data handling, secure password entry, and text file s
 
 ## 🧩 Project Structure
 ```
-
 ├── main.c              # Entry point (handles menus and user interaction)
 ├── users.txt           # Stores registered users (username, password, role)
 ├── cars.txt            # Stores car details (brand, model, year, price, availability)
 ├── rentals.txt         # Stores rental records
 └── README.md           # Project documentation
-
-````
-
+```
 ---
 
 ## 🧠 Working Principle
@@ -92,10 +84,9 @@ typedef struct {
     char password[50];
     int isAdmin;
 } User;
-````
+```
 
 ### `Car`
-
 ```c
 typedef struct {
     int id;
@@ -108,7 +99,6 @@ typedef struct {
 ```
 
 ### `Rental`
-
 ```c
 typedef struct {
     int rentalId;
@@ -125,7 +115,6 @@ typedef struct {
 ## 💻 Sample Console Output
 
 ### 🧱 Admin Login
-
 ```
 ========================================
      🚗 CAR RENTAL MANAGEMENT SYSTEM
@@ -139,7 +128,6 @@ Password : ********
 ```
 
 ### 👑 Admin Menu
-
 ```
 1. Add Car
 2. List Cars (Sort by ID/Brand/Price/Status)
@@ -148,7 +136,6 @@ Password : ********
 ```
 
 ### 🙋 Customer Menu
-
 ```
 1. List Cars
 2. Rent Car
@@ -158,7 +145,6 @@ Password : ********
 ```
 
 ### 🧾 Sample Bill Receipt
-
 ```
 ========================================
             CAR RENTAL BILL
@@ -181,13 +167,11 @@ Status          : Rented
 ## 🧭 Command-Line Execution
 
 ### 🧱 Compilation
-
 ```bash
 gcc main.c -o car_rental
 ```
 
 ### ▶️ Run the Program
-
 ```bash
 ./car_rental
 ```
@@ -196,39 +180,29 @@ gcc main.c -o car_rental
 
 ## 🧠 File Handling Summary
 
-| File Name     | Description                             |
-| ------------- | --------------------------------------- |
-| `users.txt`   | Stores usernames, passwords, and roles  |
-| `cars.txt`    | Stores details of all cars              |
+| File Name | Description |
+|------------|--------------|
+| `users.txt` | Stores usernames, passwords, and roles |
+| `cars.txt` | Stores details of all cars |
 | `rentals.txt` | Stores rental history and return status |
 
 ---
 
 ## 🚀 Future Enhancements
-
-🔹 Add password encryption (e.g., MD5/SHA hashing)
-🔹 Include search and filter options
-🔹 Add date-based rental tracking
-🔹 Implement GUI version using GTK or Qt
-🔹 Enable JSON or binary data storage
+🔹 Add password encryption (e.g., MD5/SHA hashing)  
+🔹 Include search and filter options  
+🔹 Add date-based rental tracking  
+🔹 Implement GUI version using GTK or Qt  
+🔹 Enable JSON or binary data storage  
 
 ---
 
 ## 👨‍💻 Author
-
-**Omkar Ashok Sawant**
-📍 *Bengaluru, Karnataka, India*
+**Omkar Ashok Sawant**  
+📍 *Bengaluru, Karnataka, India*  
 💡 *Passionate about C Programming and Embedded Systems.*
 
 ---
 
 ### 🏷️ Tagline
-
 > **"Drive the logic — Rent with code."**
-
-```
-
----
-
-Would you like me to include **GitHub badges** (e.g., “Language: C”, “Platform: Windows/Linux”, “Status: Completed”) at the top like your previous LinkedIn-style READMEs?
-```
